@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.background {
+    background: #f9f9fa;
+    background-blend-mode: lighten;
+    background-size: cover;
+    width: auto;
+    height: 60px;
+}
+
+.nav-list {
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #090e09;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    display: block;
+    color: rgb(61, 54, 54);
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+.product{
+    width: 100%;
+    padding: 60px 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+.image-slider{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-image: url(../others/1.png);
+    background-size: cover;
+}
+.product-images{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    background: #fff;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr) ;
+    height: 100px;
+    grid-gap: 10px;
+    padding: 10px;
+}
+.product-images img{
+    width:100%;
+    height: 80px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.product-images img.active{
+    opacity: 0.5;
+
+}
+.details{
+    width: 50%;
+}
+.details .product-brand.product-brand1 .product-brand2{
+    font-size: 30px;
+}
+.details .short-desc{
+    font-size: 15px;
+    line-height: 20px;
+    height: auto;
+    margin: 10px 0 25px;
+    opacity: 0.5px;
+}
+.product-price{
+    font-weight: 700;
+    font-size: 30px;
+}
+.product-discount{
+    color: #ff7d7d;
+    font-size: 20px;
+}
+.btn{
+    width: 48%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: orange;;
+    border: 1px solid #383838;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+.card-btn{
+    margin-right: 2%;
+    background: #383838;
+    
+  
+}
