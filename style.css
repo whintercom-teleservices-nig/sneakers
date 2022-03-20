@@ -58,7 +58,7 @@
     width: 500px;
     height: 500px;
     position: relative;
-    background-image: url(../others/1.png);
+    background-image: url(others/1.png);
     background-size: cover;
 }
 .product-images{
